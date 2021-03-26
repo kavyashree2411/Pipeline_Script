@@ -30,9 +30,9 @@ pipeline {
                     steps {
 			  echo "Task1 on Master"
 		          }
-                }
-            }
-        }
-    }
-}
+                 }
+             }
+         }
+      }
+   }
 }
