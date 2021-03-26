@@ -22,14 +22,14 @@ pipeline {
                         echo "Task1 on Agent"
                     }
                     
-                }
+                 }
                 stage('Test On Master') {
                     agent {
                         label "master"
                     }
                     steps {
 			  echo "Task1 on Master"
-		          }
+		     }
                  }
              }
          }
